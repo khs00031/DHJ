@@ -17,7 +17,8 @@ public class SortClass {
 //			System.out.print(arr[i] + " ");
 //		System.out.println();
 		
-		Arrays.sort(persons);
+
+		Arrays.sort(persons);	// persons배열의 정렬은 여기서 일어남
 		for(int i=0;i<N;i++)
 			System.out.println(persons[i]);
 	}
