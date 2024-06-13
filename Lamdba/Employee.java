@@ -38,3 +38,16 @@ public class Employee implements Comparable<Employee>
     };
 }
 
+//실습지 내용
+//import java.util.Comparator;
+//
+//public class NameComparator implements Comparator<Employee>{
+//    public int compare(Employee employee1, Employee employee2) {
+//
+//        String personName1 = employee1.getName();
+//
+//        String personName2 = employee2.getName();
+//
+//       return personName1.compareToIgnoreCase(personName2); // String method - ignore case
+//    }
+//}
