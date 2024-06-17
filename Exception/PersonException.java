@@ -1,4 +1,5 @@
 package Exception;
+
 public class PersonException {
 
 	public static void main(String[] args) {
@@ -16,8 +17,7 @@ public class PersonException {
 		} catch (ArithmeticException e) {
 			System.out.println("숫자 연산 오류");
 			System.out.println("실패 이유 : " + e.getMessage());
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			System.out.println("송금 실패!");
 			System.out.println("실패 이유 : " + e.getMessage());
 		} finally {
