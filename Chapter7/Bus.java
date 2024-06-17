@@ -15,6 +15,6 @@ public class Bus extends Car {
         return getHour() * UNIT * size;
     }
 
-    public String toString() { return "chap_7.Bus: " + calcFee(); }
+    public String toString() { return "Bus: " + calcFee(); }
 
 }

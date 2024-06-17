@@ -25,7 +25,7 @@ public class TTest {
         for (int i = 0; i < N; i++) System.out.println(students[i]);
     }
 
-    // 이 클래스는 TTest 클래스 밖에서 정의해주어야 한다.
+    // 이 클래스는 TTest 클래스 안에서 정의해주어야 한다.
     static Comparator<Student> studentNumberScoreComparator = new Comparator<Student>() {
         @Override
         public int compare(Student o1, Student o2) {
@@ -41,6 +41,7 @@ public class TTest {
             return o1.name.compareTo(o2.name);
         }
     };
+
 }
 
 class Student {
@@ -58,3 +59,4 @@ class Student {
         return "name=" + name + ", number=" + number + ", score=" + score;
     }
 }
+
